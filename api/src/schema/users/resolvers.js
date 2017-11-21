@@ -12,7 +12,7 @@ export async function getAll() {
 }
 
 // Create user
-export async function create(parentValue, { name, user }) {
+export async function create(parentValue, { name, email }) {
     return await models.User.create({
         name,
         email
